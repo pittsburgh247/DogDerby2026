@@ -10,7 +10,10 @@ function Nav() {
   return (
     <nav className="nav">
       <div className="nav-inner">
-        <a className="brand" href="#top">🐾 {SITE_DATA.event.name}</a>
+        <a className="brand" href="#top">
+          <img src="assets/dog-derby-shield.png" alt="Say It Once Dog Derby" className="brand-logo" />
+          {SITE_DATA.event.name}
+        </a>
         <div className="nav-links">
           {links.map(([href, label]) => (
             <a key={href} href={href}>{label}</a>
@@ -24,7 +27,7 @@ function Nav() {
 function Hero() {
   return (
     <header className="hero" id="top">
-      <h1>{SITE_DATA.event.name}</h1>
+      <img src="assets/dog-derby-shield.png" alt="Say It Once Dog Derby 2026" className="hero-logo" />
       <p className="tagline">{SITE_DATA.event.tagline}</p>
       <div className="hero-meta">
         <span>{SITE_DATA.event.date}</span>
@@ -67,12 +70,20 @@ function Sponsors() {
   );
 }
 
+const BADGE_COLORS = ["badge-pink", "badge-sky", "badge-yellow", "badge-green"];
+
+function badgeColorFor(category) {
+  let hash = 0;
+  for (let i = 0; i < category.length; i++) hash = (hash * 31 + category.charCodeAt(i)) >>> 0;
+  return BADGE_COLORS[hash % BADGE_COLORS.length];
+}
+
 function VendorCard({ vendor }) {
   return (
     <div className="vendor-card">
       <div className="vendor-card-header">
         <h4>{vendor.name}</h4>
-        <span className="category-badge">{vendor.category}</span>
+        <span className={`category-badge ${badgeColorFor(vendor.category)}`}>{vendor.category}</span>
       </div>
       {vendor.description && <p className="vendor-desc">{vendor.description}</p>}
       {(vendor.website || vendor.instagram) && (
@@ -185,8 +196,9 @@ function RescuePartners() {
 function Footer() {
   return (
     <footer className="footer">
+      <img src="assets/rescue-league-logo.png" alt="Say It Once Rescue League" className="footer-logo" />
       <p>Interested in becoming a sponsor or vendor next year? Reach out — we'd love to have you.</p>
-      <p className="footer-small">🐾 {SITE_DATA.event.name}</p>
+      <p className="footer-small">All proceeds benefit the Say It Once Rescue League</p>
     </footer>
   );
 }
