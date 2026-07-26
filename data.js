@@ -5,7 +5,7 @@
 const SITE_DATA = {
   event: {
     name: "Dog Derby 2026",
-    tagline: "A day of tails, treats, and community — presented by Stanley Steemer",
+    tagline: "A day of tails, treats, and community",
     date: "August 30, 2026 · 8:00 AM – 3:00 PM",
     location: "Monroeville Community Park West",
   },

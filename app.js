@@ -7,24 +7,12 @@ function Nav() {
     ["#raffle", "Raffle"],
     ["#rescues", "Rescue Partners"],
   ];
-  const presenting = SITE_DATA.presentingSponsor;
   return (
     <nav className="nav">
       <div className="nav-inner">
         <a className="brand" href="#top">
-          <img src="assets/dog-derby-shield.png" alt="Say It Once Dog Derby" className="brand-logo" />
           {SITE_DATA.event.name}
         </a>
-        {presenting && (
-          <div className="presented-by">
-            <span className="presented-by-label">Presented by</span>
-            {presenting.logo ? (
-              <img src={presenting.logo} alt={presenting.name} className="presented-by-logo" />
-            ) : (
-              <span className="presented-by-name">{presenting.name}</span>
-            )}
-          </div>
-        )}
         <div className="nav-links">
           {links.map(([href, label]) => (
             <a key={href} href={href}>{label}</a>
@@ -36,9 +24,22 @@ function Nav() {
 }
 
 function Hero() {
+  const presenting = SITE_DATA.presentingSponsor;
   return (
     <header className="hero" id="top">
-      <img src="assets/dog-derby-shield.png" alt="Say It Once Dog Derby 2026" className="hero-logo" />
+      <div className="hero-top-row">
+        <img src="assets/dog-derby-shield.png" alt="Say It Once Dog Derby 2026" className="hero-logo" />
+        {presenting && (
+          <div className="hero-presented">
+            <span className="hero-presented-label">Presented by</span>
+            {presenting.logo ? (
+              <img src={presenting.logo} alt={presenting.name} className="hero-presented-logo" />
+            ) : (
+              <span className="hero-presented-name">{presenting.name}</span>
+            )}
+          </div>
+        )}
+      </div>
       <p className="tagline">{SITE_DATA.event.tagline}</p>
       <div className="hero-meta">
         <span>{SITE_DATA.event.date}</span>
