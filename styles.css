@@ -128,9 +128,7 @@ a {
   max-height: 16vw;
   width: auto;
   flex-shrink: 0;
-  background: #fff;
   border-radius: 12px;
-  padding: 12px 22px;
 }
 
 .hero-presented-name {
