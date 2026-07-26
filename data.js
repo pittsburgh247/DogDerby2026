@@ -10,24 +10,24 @@ const SITE_DATA = {
     location: "Monroeville Community Park West",
   },
 
+  presentingSponsor: {
+    name: "Stanley Steemer",
+    logo: "assets/sponsor-stanley-steemer.webp",
+  },
+
   sponsorTiers: [
-    {
-      tier: "Presenting Sponsor",
-      amount: null,
-      sponsors: [{ name: "Stanley Steemer" }],
-    },
     {
       tier: "Labrador Sponsor",
       amount: "$1,000",
-      sponsors: [{ name: "West Shore Homes" }],
+      sponsors: [{ name: "West Shore Homes", logo: "assets/sponsor-west-shore-home.png" }],
     },
     {
       tier: "Bulldog Sponsor",
       amount: "$500",
       sponsors: [
-        { name: "Aaron Accounting" },
-        { name: "S&T Bank" },
-        { name: "Somma Pizza" },
+        { name: "Aaron Accounting", logo: "assets/sponsor-aaron-accounting.jpg" },
+        { name: "S&T Bank", logo: "assets/sponsor-st-bank.png" },
+        { name: "Somma Pizza", logo: "assets/sponsor-somma-pizza.png" },
         { name: "Compass Investments" },
         { name: "Greentree Auto Body" },
         { name: "Michaels Painting" },

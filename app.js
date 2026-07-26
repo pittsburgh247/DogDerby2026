@@ -7,6 +7,7 @@ function Nav() {
     ["#raffle", "Raffle"],
     ["#rescues", "Rescue Partners"],
   ];
+  const presenting = SITE_DATA.presentingSponsor;
   return (
     <nav className="nav">
       <div className="nav-inner">
@@ -14,6 +15,16 @@ function Nav() {
           <img src="assets/dog-derby-shield.png" alt="Say It Once Dog Derby" className="brand-logo" />
           {SITE_DATA.event.name}
         </a>
+        {presenting && (
+          <div className="presented-by">
+            <span className="presented-by-label">Presented by</span>
+            {presenting.logo ? (
+              <img src={presenting.logo} alt={presenting.name} className="presented-by-logo" />
+            ) : (
+              <span className="presented-by-name">{presenting.name}</span>
+            )}
+          </div>
+        )}
         <div className="nav-links">
           {links.map(([href, label]) => (
             <a key={href} href={href}>{label}</a>
@@ -38,6 +49,18 @@ function Hero() {
   );
 }
 
+function SponsorCard({ sponsor }) {
+  return (
+    <div className="sponsor-card">
+      {sponsor.logo ? (
+        <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />
+      ) : (
+        <span className="sponsor-name">{sponsor.name}</span>
+      )}
+    </div>
+  );
+}
+
 function SponsorTier({ tier }) {
   return (
     <div className="sponsor-tier">
@@ -47,9 +70,7 @@ function SponsorTier({ tier }) {
       </h3>
       <div className="sponsor-grid">
         {tier.sponsors.map((s) => (
-          <div className="sponsor-card" key={s.name}>
-            {s.name}
-          </div>
+          <SponsorCard sponsor={s} key={s.name} />
         ))}
       </div>
     </div>
@@ -57,12 +78,21 @@ function SponsorTier({ tier }) {
 }
 
 function Sponsors() {
+  const presenting = SITE_DATA.presentingSponsor;
   return (
     <section id="sponsors" className="section">
       <h2>Our Sponsors</h2>
       <p className="section-intro">
         Dog Derby 2026 wouldn't be possible without the generosity of these local businesses.
       </p>
+      {presenting && (
+        <div className="sponsor-tier">
+          <h3>Presenting Sponsor</h3>
+          <div className="sponsor-grid">
+            <SponsorCard sponsor={presenting} />
+          </div>
+        </div>
+      )}
       {SITE_DATA.sponsorTiers.map((tier) => (
         <SponsorTier tier={tier} key={tier.tier} />
       ))}
