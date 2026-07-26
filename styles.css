@@ -88,52 +88,53 @@ a {
   padding: 2.5rem 1.5rem 2.5rem;
   background: radial-gradient(circle at 50% 0%, var(--navy) 0%, var(--navy-dark) 70%);
   color: #fff;
+  overflow: hidden;
 }
 
 .hero-top-row {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 2.5rem;
-  max-width: 900px;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .hero-logo {
-  width: 150px;
+  width: 220px;
+  max-width: 30vw;
   height: auto;
   flex-shrink: 0;
   filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.35));
-}
-
-.hero-presented {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
 }
 
 .hero-presented-label {
   color: var(--yellow);
   font-family: "Baloo 2", sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 4vw, 3.25rem);
   letter-spacing: 0.02em;
   white-space: nowrap;
+  flex: 1;
+  text-align: center;
 }
 
 .hero-presented-logo {
-  height: 64px;
+  height: 110px;
+  max-height: 16vw;
   width: auto;
+  flex-shrink: 0;
   background: #fff;
-  border-radius: 10px;
-  padding: 8px 14px;
+  border-radius: 12px;
+  padding: 12px 22px;
 }
 
 .hero-presented-name {
   color: #fff;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 .tagline {
@@ -399,14 +400,40 @@ main {
   margin-top: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+  .hero-top-row {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
   .hero-logo {
-    max-width: 190px;
+    width: 150px;
+    max-width: 55vw;
+  }
+  .hero-presented-label {
+    font-size: 1.75rem;
+  }
+  .hero-presented-logo {
+    height: 64px;
+    max-height: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-inner {
+    justify-content: center;
+    text-align: center;
   }
   .nav-links {
     gap: 0.85rem;
+    justify-content: center;
   }
-  .brand-logo {
-    height: 34px;
+  .section h2 {
+    font-size: 1.6rem;
+  }
+  .vendor-controls {
+    flex-direction: column;
+  }
+  .vendor-controls input {
+    min-width: 0;
   }
 }

@@ -29,16 +29,13 @@ function Hero() {
     <header className="hero" id="top">
       <div className="hero-top-row">
         <img src="assets/dog-derby-shield.png" alt="Say It Once Dog Derby 2026" className="hero-logo" />
-        {presenting && (
-          <div className="hero-presented">
-            <span className="hero-presented-label">Presented by</span>
-            {presenting.logo ? (
-              <img src={presenting.logo} alt={presenting.name} className="hero-presented-logo" />
-            ) : (
-              <span className="hero-presented-name">{presenting.name}</span>
-            )}
-          </div>
-        )}
+        {presenting && <span className="hero-presented-label">Presented by</span>}
+        {presenting &&
+          (presenting.logo ? (
+            <img src={presenting.logo} alt={presenting.name} className="hero-presented-logo" />
+          ) : (
+            <span className="hero-presented-name">{presenting.name}</span>
+          ))}
       </div>
       <p className="tagline">{SITE_DATA.event.tagline}</p>
       <div className="hero-meta">
