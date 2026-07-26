@@ -86,7 +86,9 @@ a {
 .hero {
   text-align: center;
   padding: 2.5rem 1.5rem 2.5rem;
-  background: radial-gradient(circle at 50% 0%, var(--navy) 0%, var(--navy-dark) 70%);
+  background:
+    linear-gradient(rgba(27, 42, 74, 0.88), rgba(18, 30, 56, 0.93)),
+    url("assets/hero-background.jpg") center / cover no-repeat;
   color: #fff;
   overflow: hidden;
 }
