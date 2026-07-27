@@ -93,56 +93,14 @@ a {
   overflow: hidden;
 }
 
-.hero-top-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+.hero-presented-banner {
+  display: block;
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.hero-logo,
-.hero-presented-logo {
-  width: clamp(140px, 22vw, 240px);
-  max-width: 30vw;
+  max-width: 700px;
   height: auto;
-  flex-shrink: 0;
-}
-
-.hero-logo {
-  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.35));
-}
-
-.hero-presented-logo {
-  border-radius: 16px;
-}
-
-.hero-presented-label {
-  color: #fff;
-  text-transform: uppercase;
-  font-family: "Baloo 2", sans-serif;
-  font-weight: 700;
-  font-size: clamp(1.5rem, 4vw, 3.25rem);
-  letter-spacing: 0.02em;
-  white-space: nowrap;
-  flex: 1;
-  text-align: center;
-}
-
-.hero-presented-name {
-  color: #fff;
-  font-weight: 700;
-  font-size: 1.75rem;
-}
-
-.tagline {
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: var(--yellow);
-  margin: 1.25rem 0 1rem;
+  margin: 0 auto 2rem;
+  border-radius: 12px;
+  filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.35));
 }
 
 .hero-meta {
@@ -387,21 +345,6 @@ main {
   font-weight: 700;
   color: var(--yellow);
   margin-top: 0.5rem;
-}
-
-@media (max-width: 700px) {
-  .hero-top-row {
-    flex-direction: column;
-    gap: 1.25rem;
-  }
-  .hero-logo,
-  .hero-presented-logo {
-    width: 150px;
-    max-width: 55vw;
-  }
-  .hero-presented-label {
-    font-size: 1.75rem;
-  }
 }
 
 @media (max-width: 600px) {
