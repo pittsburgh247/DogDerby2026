@@ -15,33 +15,23 @@ const SITE_DATA = {
     logo: "assets/sponsor-stanley-steemer.webp",
   },
 
-  sponsorTiers: [
-    {
-      tier: "Labrador Sponsor",
-      amount: "$1,000",
-      sponsors: [{ name: "West Shore Homes", logo: "assets/sponsor-west-shore-home.png" }],
-    },
-    {
-      tier: "Bulldog Sponsor",
-      amount: "$500",
-      sponsors: [
-        { name: "Aaron Accounting", logo: "assets/sponsor-aaron-accounting.jpg" },
-        { name: "S&T Bank", logo: "assets/sponsor-st-bank.png" },
-        { name: "Somma Pizza", logo: "assets/sponsor-somma-pizza.png" },
-        { name: "Compass Investments" },
-        { name: "Greentree Auto Body" },
-        { name: "Michaels Painting" },
-        { name: "Zamp's Brew Thru" },
-        { name: "Camp Bow Wow – Pittsburgh East" },
-        { name: "Berkley Creek Pet Retreat" },
-        { name: "Manso-Suprano Agency LLC" },
-      ],
-    },
-    {
-      tier: "Obstacle Sponsor",
-      amount: "$100",
-      sponsors: [{ name: "Double Take Detailing" }],
-    },
+  sponsors: [
+    { name: "West Shore Homes", logo: "assets/sponsor-west-shore-home.png" },
+    { name: "Aaron Accounting", logo: "assets/sponsor-aaron-accounting.jpg" },
+    { name: "S&T Bank", logo: "assets/sponsor-st-bank.png" },
+    { name: "Somma Pizza", logo: "assets/sponsor-somma-pizza.png" },
+    { name: "Compass Investments" },
+    { name: "Greentree Auto Body" },
+    { name: "Michaels Painting" },
+    { name: "Zamp's Brew Thru" },
+    { name: "Camp Bow Wow – Pittsburgh East" },
+    { name: "Berkley Creek Pet Retreat" },
+    { name: "Manso-Suprano Agency LLC" },
+    { name: "Double Take Detailing" },
+    { name: "Nerf Dog", logo: "assets/sponsor-nerf-dog.png" },
+    { name: "Penneco Outdoor Advertising", logo: "assets/sponsor-penneco.png" },
+    { name: "Tyler Mountain Water", logo: "assets/sponsor-tyler-mountain-water.jpg" },
+    { name: "Tees n Tops" },
   ],
 
   vendors: [

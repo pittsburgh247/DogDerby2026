@@ -192,21 +192,6 @@ main {
   margin-bottom: 1.75rem;
 }
 
-.sponsor-tier {
-  margin-bottom: 2rem;
-}
-
-.sponsor-tier h3 {
-  color: var(--pink-dark);
-  font-size: 1.2rem;
-  margin-bottom: 0.75rem;
-}
-
-.tier-amount {
-  color: var(--tan);
-  font-weight: 600;
-}
-
 .sponsor-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

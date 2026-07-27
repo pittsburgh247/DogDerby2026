@@ -59,41 +59,18 @@ function SponsorCard({ sponsor }) {
   );
 }
 
-function SponsorTier({ tier }) {
-  return (
-    <div className="sponsor-tier">
-      <h3>
-        {tier.tier}
-        {tier.amount && <span className="tier-amount"> — {tier.amount}</span>}
-      </h3>
-      <div className="sponsor-grid">
-        {tier.sponsors.map((s) => (
-          <SponsorCard sponsor={s} key={s.name} />
-        ))}
-      </div>
-    </div>
-  );
-}
-
 function Sponsors() {
-  const presenting = SITE_DATA.presentingSponsor;
   return (
     <section id="sponsors" className="section">
       <h2>Our Sponsors</h2>
       <p className="section-intro">
         Dog Derby 2026 wouldn't be possible without the generosity of these local businesses.
       </p>
-      {presenting && (
-        <div className="sponsor-tier">
-          <h3>Presenting Sponsor</h3>
-          <div className="sponsor-grid">
-            <SponsorCard sponsor={presenting} />
-          </div>
-        </div>
-      )}
-      {SITE_DATA.sponsorTiers.map((tier) => (
-        <SponsorTier tier={tier} key={tier.tier} />
-      ))}
+      <div className="sponsor-grid">
+        {SITE_DATA.sponsors.map((s) => (
+          <SponsorCard sponsor={s} key={s.name} />
+        ))}
+      </div>
     </section>
   );
 }
