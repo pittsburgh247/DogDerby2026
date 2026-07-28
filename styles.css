@@ -18,6 +18,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 90px;
+}
+
 body {
   margin: 0;
   font-family: "Poppins", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -151,6 +155,63 @@ main {
   color: #5a5248;
   margin-top: 0;
   margin-bottom: 1.75rem;
+}
+
+.sponsors-heading {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 2.5rem;
+}
+
+.sponsors-eyebrow {
+  display: inline-block;
+  color: var(--pink-dark);
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.sponsors-heading h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.sponsors-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.sponsors-divider span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.sponsors-divider .dot-pink {
+  background: var(--pink);
+}
+
+.sponsors-divider .dot-yellow {
+  background: var(--yellow);
+}
+
+.sponsors-divider .dot-sky {
+  background: var(--sky);
+}
+
+.sponsors-divider .dot-green {
+  background: var(--green);
+}
+
+.sponsors-heading .section-intro {
+  font-size: 1.15rem;
+  margin-bottom: 0;
 }
 
 .sponsor-grid {
@@ -358,6 +419,9 @@ a.sponsor-card:hover {
 }
 
 @media (max-width: 600px) {
+  html {
+    scroll-padding-top: 130px;
+  }
   .nav-inner {
     justify-content: center;
     text-align: center;

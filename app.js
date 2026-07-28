@@ -73,10 +73,19 @@ function SponsorCard({ sponsor }) {
 function Sponsors() {
   return (
     <section id="sponsors" className="section">
-      <h2>Our Sponsors</h2>
-      <p className="section-intro">
-        Dog Derby 2026 wouldn't be possible without the generosity of these local businesses.
-      </p>
+      <div className="sponsors-heading">
+        <span className="sponsors-eyebrow">With Gratitude</span>
+        <h2>Our Sponsors</h2>
+        <div className="sponsors-divider">
+          <span className="dot-pink"></span>
+          <span className="dot-yellow"></span>
+          <span className="dot-sky"></span>
+          <span className="dot-green"></span>
+        </div>
+        <p className="section-intro">
+          A heartfelt thank-you to the incredible local businesses making Dog Derby 2026 possible.
+        </p>
+      </div>
       <div className="sponsor-grid">
         {SITE_DATA.sponsors.map((s) => (
           <SponsorCard sponsor={s} key={s.name} />
