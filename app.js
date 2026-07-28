@@ -112,8 +112,10 @@ function badgeColorFor(category) {
 }
 
 function VendorCard({ vendor }) {
+  const className = `vendor-card${vendor.darkCard ? " vendor-card-dark" : ""}`;
   return (
-    <div className="vendor-card">
+    <div className={className}>
+      {vendor.logo && <img src={vendor.logo} alt={vendor.name} className="vendor-logo" />}
       <div className="vendor-card-header">
         <h4>{vendor.name}</h4>
         <span className={`category-badge ${badgeColorFor(vendor.category)}`}>{vendor.category}</span>
