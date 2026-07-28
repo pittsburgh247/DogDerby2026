@@ -176,10 +176,10 @@ main {
   color: var(--pink-dark);
   font-family: "Baloo 2", sans-serif;
   font-weight: 700;
-  font-size: 0.9rem;
-  letter-spacing: 0.18em;
+  font-size: 1.35rem;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .sponsors-heading h2 {
