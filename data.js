@@ -72,7 +72,7 @@ const SITE_DATA = {
     },
     {
       name: "Berkley Creek Pet Retreat",
-      logo: "assets/sponsor-berkley-creek.jpg",
+      logo: "assets/sponsor-berkley-creek.png",
       website: "https://berkleycreekpetretreat.com",
       accentColor: "#c8a890",
     },
@@ -81,6 +81,7 @@ const SITE_DATA = {
       logo: "assets/sponsor-manso-suprano-icon.png",
       website: "https://mansosupranoagency.com",
       accentColor: "#d0a058",
+      showNameCaption: true,
     },
     {
       name: "Double Take Detailing",

@@ -42,7 +42,10 @@ function Hero() {
 
 function SponsorCard({ sponsor }) {
   const content = sponsor.logo ? (
-    <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />
+    <div className="sponsor-logo-wrap">
+      <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />
+      {sponsor.showNameCaption && <span className="sponsor-caption">{sponsor.name}</span>}
+    </div>
   ) : (
     <span className="sponsor-name">{sponsor.name}</span>
   );

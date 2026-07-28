@@ -256,6 +256,24 @@ a.sponsor-card:hover {
   height: auto;
 }
 
+.sponsor-logo-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sponsor-logo-wrap .sponsor-logo {
+  max-height: 90px;
+}
+
+.sponsor-caption {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--ink);
+}
+
 .sponsor-name {
   font-weight: 700;
   color: var(--ink);
