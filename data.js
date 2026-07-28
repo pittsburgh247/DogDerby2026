@@ -155,7 +155,13 @@ const SITE_DATA = {
       instagram: "@acclamationbrewing",
     },
     { name: "Steel City Hot Dogs", category: "Food & Drink", logo: "assets/vendor-steel-city-hot-dogs.jpg" },
-    { name: "Couture Cupcakes", category: "Desserts" },
+    {
+      name: "Couture Cupcakes",
+      category: "Desserts",
+      description: "Cookies, cake pops, cupcakes, and stickers.",
+      website: "https://www.couturecupcakespgh.com",
+      instagram: "@Couture_cupcakesPGH",
+    },
 
     { name: "Yinz and Yappers", category: "Pet Supplies", logo: "assets/vendor-yinz-yappers.jpg" },
     { name: "Bentley's Doggie Bistro", category: "Pet Supplies", logo: "assets/vendor-bentleys.png" },
@@ -177,13 +183,20 @@ const SITE_DATA = {
       instagram: "@pawfectmatchoutfitters",
     },
     { name: "Honey Stone Co.", category: "Pet Supplies", logo: "assets/vendor-honeystone.webp" },
-    { name: "Hollywood Feed", category: "Pet Supplies", logo: "assets/vendor-hollywood-feed.jpg" },
+    {
+      name: "Hollywood Feed",
+      category: "Pet Supplies",
+      logo: "assets/vendor-hollywood-feed.jpg",
+      description: "Pet supply retailer featuring toys, healthy treats, and long-lasting chews, with frequent-feeder rewards and same-day delivery.",
+      website: "https://www.hollywoodfeed.com",
+      instagram: "@hwfeed",
+    },
 
     {
       name: "Animal Healing NOW",
       category: "Pet Health & Wellness",
       logo: "assets/vendor-animal-healing.png",
-      description: "Working with licensed veterinarians since 1999 to help support comfort, mobility, and overall well-being.",
+      description: "Working with licensed veterinarians since 1999 to help support comfort, mobility, and overall well-being. Dr. Savko's new book, The Conscious Animal Companion, releases worldwide in September 2026.",
       website: "https://www.animalhealingnow.com",
       instagram: "@animalhealingnow",
     },
@@ -283,7 +296,7 @@ const SITE_DATA = {
     },
     { name: "Kate Buckley Photography", category: "Photography", logo: "assets/vendor-kate-buckley.png" },
     {
-      name: "Integrity Psychological Associates",
+      name: "Integrity Psychological Services",
       category: "Health & Wellness",
       logo: "assets/vendor-integrity-psych.png",
       description: "Psychology practice offering therapy and medication management, with pet-themed treats and information on-site.",
