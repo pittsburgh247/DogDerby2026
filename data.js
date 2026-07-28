@@ -145,7 +145,7 @@ const SITE_DATA = {
       instagram: "@millies",
     },
     { name: "Binko's Pepper Sauce", category: "Food & Drink", logo: "assets/vendor-binkos.jpg" },
-    { name: "Biondi Biscotti", category: "Food & Drink" },
+    { name: "Biondi Biscotti", category: "Food & Drink", logo: "assets/vendor-biondi-biscotti.webp" },
     {
       name: "Acclamation Brewing",
       category: "Food & Drink",
@@ -154,7 +154,7 @@ const SITE_DATA = {
       website: "https://acclamationbrewing.com",
       instagram: "@acclamationbrewing",
     },
-    { name: "Steel City Hot Dogs", category: "Food & Drink" },
+    { name: "Steel City Hot Dogs", category: "Food & Drink", logo: "assets/vendor-steel-city-hot-dogs.jpg" },
     { name: "Couture Cupcakes", category: "Desserts" },
 
     { name: "Yinz and Yappers", category: "Pet Supplies", logo: "assets/vendor-yinz-yappers.jpg" },
@@ -253,10 +253,15 @@ const SITE_DATA = {
       description: "Custom permanent jewelry and a beaded flower bar with interactive experiences.",
       instagram: "@queenofsparks",
     },
-    { name: "Buggy's Bowties & Bandanas", category: "Pet Accessories" },
+    {
+      name: "Buggy's Bowties & Bandanas",
+      category: "Pet Accessories",
+      logo: "assets/vendor-buggys-bowties.png",
+    },
     {
       name: "Bianca Basilone – Realty One Group Landmark",
       category: "Real Estate",
+      logo: "assets/vendor-bianca-basilone.png",
       description: "Local real estate agent, offering free dog treat goody bags.",
       website: "https://biancabasilone.myrealtyonegroup.com",
       instagram: "@boughtwithbianca",
@@ -280,11 +285,14 @@ const SITE_DATA = {
     {
       name: "Integrity Psychological Associates",
       category: "Health & Wellness",
+      logo: "assets/vendor-integrity-psych.png",
       description: "Psychology practice offering therapy and medication management, with pet-themed treats and information on-site.",
       website: "https://www.integritypsych.com",
       instagram: "@integritypsychologicalservices",
     },
-    { name: "Smokey and Moo's Treats", category: "Pet Treats" },
+    { name: "Smokey and Moo's Treats", category: "Pet Treats", logo: "assets/vendor-smokey-moos.png" },
+    { name: "Dogtopia", category: "Pet Boarding & Services", logo: "assets/vendor-dogtopia.jpeg" },
+    { name: "Warrior Canine Connection", category: "Nonprofit Organization", logo: "assets/vendor-warrior-canine.webp" },
 
     { name: "Steel City Mobile Mini Golf", category: "Activity", logo: "assets/vendor-steel-city-mini-golf.png" },
     { name: "PGH Party Creations, LLC", category: "Face Painting", logo: "assets/vendor-pgh-party-creations.png" },
@@ -366,7 +374,6 @@ const SITE_DATA = {
     "Team Memphis",
     "Furry Friends of St. Francis",
     "Save a Friend PR",
-    "Warrior Canine Connection",
     "Furever Homes Doberman Rescue",
     "Monroeville Animal Shelter",
     "Butler County Humane Society",
