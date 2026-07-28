@@ -46,12 +46,13 @@ function SponsorCard({ sponsor }) {
   ) : (
     <span className="sponsor-name">{sponsor.name}</span>
   );
-  const className = `sponsor-card${sponsor.darkCard ? " sponsor-card-dark" : ""}`;
+  const style = { "--accent": sponsor.accentColor || "#1b2a4a" };
 
   if (sponsor.website) {
     return (
       <a
-        className={className}
+        className="sponsor-card"
+        style={style}
         href={sponsor.website}
         target="_blank"
         rel="noopener noreferrer"
@@ -62,7 +63,11 @@ function SponsorCard({ sponsor }) {
     );
   }
 
-  return <div className={className}>{content}</div>;
+  return (
+    <div className="sponsor-card" style={style}>
+      {content}
+    </div>
+  );
 }
 
 function Sponsors() {
