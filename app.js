@@ -41,14 +41,19 @@ function Hero() {
 }
 
 function SponsorCard({ sponsor }) {
-  const content = sponsor.logo ? (
-    <div className="sponsor-logo-wrap">
-      <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />
-      {sponsor.showNameCaption && <span className="sponsor-caption">{sponsor.name}</span>}
-    </div>
-  ) : (
-    <span className="sponsor-name">{sponsor.name}</span>
-  );
+  let content;
+  if (sponsor.showNameCaption) {
+    content = (
+      <div className="sponsor-logo-wrap">
+        <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />
+        <span className="sponsor-caption">{sponsor.name}</span>
+      </div>
+    );
+  } else if (sponsor.logo) {
+    content = <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />;
+  } else {
+    content = <span className="sponsor-name">{sponsor.name}</span>;
+  }
   const style = { "--accent": sponsor.accentColor || "#1b2a4a" };
 
   if (sponsor.website) {
