@@ -41,15 +41,28 @@ function Hero() {
 }
 
 function SponsorCard({ sponsor }) {
-  return (
-    <div className="sponsor-card">
-      {sponsor.logo ? (
-        <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />
-      ) : (
-        <span className="sponsor-name">{sponsor.name}</span>
-      )}
-    </div>
+  const content = sponsor.logo ? (
+    <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />
+  ) : (
+    <span className="sponsor-name">{sponsor.name}</span>
   );
+  const className = `sponsor-card${sponsor.darkCard ? " sponsor-card-dark" : ""}`;
+
+  if (sponsor.website) {
+    return (
+      <a
+        className={className}
+        href={sponsor.website}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={sponsor.name}
+      >
+        {content}
+      </a>
+    );
+  }
+
+  return <div className={className}>{content}</div>;
 }
 
 function Sponsors() {
