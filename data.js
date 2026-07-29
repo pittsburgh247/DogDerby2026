@@ -411,6 +411,11 @@ const SITE_DATA = {
       website: "https://www.dogtopia.com/pennsylvania-moon-township",
     },
     {
+      name: "PetSuites - Cranberry Township",
+      category: "Pet Boarding & Services",
+      logo: "assets/vendor-petsuites.webp",
+    },
+    {
       name: "Warrior Canine Connection",
       category: "Nonprofit Organization",
       logo: "assets/vendor-warrior-canine.webp",
