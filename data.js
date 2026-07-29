@@ -317,7 +317,7 @@ const SITE_DATA = {
       name: "Portrait Princess",
       category: "Pet Photography",
       logo: "assets/vendor-portrait-princess.webp",
-      description: "Pet photography services — photos, products, and digital files.",
+      description: "Pet photography services — photos, products, and digital files. Photographing all foster dogs for FREE at the event!",
       website: "https://www.portraitprincess.com",
       instagram: "@portrait.princess",
     },
