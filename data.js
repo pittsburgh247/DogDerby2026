@@ -231,7 +231,7 @@ const SITE_DATA = {
       website: "https://bentleysdoggiebistro.com",
       instagram: "@bentleysdoggiebistro",
     },
-    { name: "Olivers Bow Ties", category: "Pet Accessories", logo: "assets/vendor-olivers-bow-ties.png" },
+    { name: "Oliver's Bow Ties", category: "Pet Accessories", logo: "assets/vendor-olivers-bow-ties.png" },
     {
       name: "Griswold's Natural Pet Market",
       category: "Pet Supplies",
