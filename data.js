@@ -386,7 +386,12 @@ const SITE_DATA = {
       logo: "assets/vendor-inked-linked.webp",
       logoOnDark: true,
     },
-    { name: "Kate Buckley Photography", category: "Photography", logo: "assets/vendor-kate-buckley.png" },
+    {
+      name: "Kate Buckley Photography",
+      category: "Photography",
+      logo: "assets/vendor-kate-buckley.png",
+      description: "Boutique family and pet photographer in Pittsburgh, PA, capturing the ordinary and extraordinary moments of your family and creating custom artwork for your home.",
+    },
     {
       name: "Integrity Psychological Services",
       category: "Health & Wellness",
