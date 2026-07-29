@@ -251,7 +251,7 @@ const SITE_DATA = {
     {
       name: "Honey Stone Co.",
       category: "Pet Supplies",
-      logo: "assets/vendor-honeystone.webp",
+      logo: "assets/vendor-honeystone.png",
       description: "Handmade biothane pet gear — collars and leashes — for dogs, humans, and horses.",
       website: "https://honeystoneco.com",
       instagram: "@thehoneystoneco",
@@ -328,7 +328,7 @@ const SITE_DATA = {
     {
       name: "Sewickley Hounds Foundation",
       category: "Nonprofit Organization",
-      logo: "assets/vendor-sewickley-hounds.webp",
+      logo: "assets/vendor-sewickley-hounds.png",
       description: "501(c)(3) nonprofit (est. 2024) supporting hound and dog welfare, affiliated with the Sewickley Hunt Club.",
       website: "https://sewickleyhoundsfoundation.org",
     },
