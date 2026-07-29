@@ -239,14 +239,6 @@ const SITE_DATA = {
       instagram: "@wonderandwarmthcandles",
     },
     {
-      name: "Ashcrafted Imagery",
-      category: "Art & Home Decor",
-      logo: "assets/vendor-ashcrafted.png",
-      description: "Whimsical illustrative wall decor themed around plants and animals, including dog art prints, embroidery, and a special-edition t-shirt.",
-      website: "https://www.ashcraftedartwork.com",
-      instagram: "@ashcraftedimagery",
-    },
-    {
       name: "Sewickley Hounds Foundation",
       category: "Nonprofit Organization",
       logo: "assets/vendor-sewickley-hounds.webp",
@@ -292,7 +284,7 @@ const SITE_DATA = {
       name: "Inked and Linked",
       category: "Services",
       logo: "assets/vendor-inked-linked.webp",
-      darkCard: true,
+      logoOnDark: true,
     },
     { name: "Kate Buckley Photography", category: "Photography", logo: "assets/vendor-kate-buckley.png" },
     {

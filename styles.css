@@ -316,25 +316,24 @@ a.sponsor-card:hover {
   box-shadow: var(--shadow);
 }
 
-.vendor-card-dark {
-  background: linear-gradient(165deg, var(--navy) 0%, var(--navy-dark) 100%);
-  border-color: var(--navy-dark);
-}
-
-.vendor-card-dark .vendor-card-header h4 {
-  color: #fff;
-}
-
-.vendor-card-dark .vendor-desc {
-  color: #cfd6e8;
-}
-
 .vendor-logo {
   display: block;
   width: 100%;
   height: 90px;
   object-fit: contain;
   margin-bottom: 0.75rem;
+}
+
+.vendor-logo-navy-wrap {
+  background: linear-gradient(165deg, var(--navy) 0%, var(--navy-dark) 100%);
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.vendor-logo-navy-wrap .vendor-logo {
+  height: 70px;
+  margin-bottom: 0;
 }
 
 .vendor-card-header {
