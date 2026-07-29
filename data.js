@@ -296,7 +296,7 @@ const SITE_DATA = {
       instagram: "@integritypsychologicalservices",
     },
     { name: "Smokey and Moo's Treats", category: "Pet Treats", logo: "assets/vendor-smokey-moos.png" },
-    { name: "Dogtopia", category: "Pet Boarding & Services", logo: "assets/vendor-dogtopia.jpeg" },
+    { name: "Dogtopia of Moon Township", category: "Pet Boarding & Services", logo: "assets/vendor-dogtopia.jpeg" },
     { name: "Warrior Canine Connection", category: "Nonprofit Organization", logo: "assets/vendor-warrior-canine.webp" },
 
     { name: "Steel City Mobile Mini Golf", category: "Activity", logo: "assets/vendor-steel-city-mini-golf.png" },
