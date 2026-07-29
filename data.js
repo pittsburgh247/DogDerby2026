@@ -211,6 +211,7 @@ const SITE_DATA = {
     {
       name: "Couture Cupcakes",
       category: "Desserts",
+      logo: "assets/vendor-couture-cupcakes.png",
       description: "Cookies, cake pops, cupcakes, and stickers.",
       website: "https://www.couturecupcakespgh.com",
       instagram: "@Couture_cupcakesPGH",
