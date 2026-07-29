@@ -232,7 +232,12 @@ const SITE_DATA = {
       website: "https://bentleysdoggiebistro.com",
       instagram: "@bentleysdoggiebistro",
     },
-    { name: "Oliver's Bow Ties", category: "Pet Accessories", logo: "assets/vendor-olivers-bow-ties.png" },
+    {
+      name: "Oliver's Bow Ties",
+      category: "Pet Accessories",
+      logo: "assets/vendor-olivers-bow-ties.png",
+      description: "Handmade pet accessories — bandanas, bows, and bowties.",
+    },
     {
       name: "Griswold's Natural Pet Market",
       category: "Pet Supplies",
@@ -288,7 +293,12 @@ const SITE_DATA = {
       description: "Pittsburgh (South Side) pet boarding resort offering luxury boarding, daycare, grooming, and webcam-monitored suites.",
       website: "https://petpalaceresort.com",
     },
-    { name: "Sugar Oats Farms", category: "Body Care", logo: "assets/vendor-sugar-oats.jpg" },
+    {
+      name: "Sugar Oats Collections",
+      category: "Body Care",
+      logo: "assets/vendor-sugar-oats.jpg",
+      description: "Goat milk artisan soaps, small-batch skincare, and luxury candles.",
+    },
     {
       name: "Rebel Hound Pittsburgh / The Green Room",
       category: "Pet Services",
