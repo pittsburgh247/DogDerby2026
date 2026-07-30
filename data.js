@@ -364,6 +364,7 @@ const SITE_DATA = {
       name: "Buggy's Bowties & Bandanas",
       category: "Pet Accessories",
       logo: "assets/vendor-buggys-bowties.png",
+      description: "Pet accessory vendor with bowties, bandanas, and more!",
     },
     {
       name: "Bianca Basilone – Realty One Group Landmark",
