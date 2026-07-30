@@ -8,6 +8,8 @@ const SITE_DATA = {
     tagline: "A day of tails, treats, and community",
     date: "August 30, 2026 · 8:00 AM – 3:00 PM",
     location: "Monroeville Community Park West",
+    registerUrl: "https://buytickets.at/rescueleague/2103977",
+    honorSponsorUrl: "https://buytickets.at/rescueleague/2275421",
   },
 
   presentingSponsor: {

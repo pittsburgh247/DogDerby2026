@@ -36,6 +36,24 @@ function Hero() {
         <span className="dot">•</span>
         <span>{SITE_DATA.event.location}</span>
       </div>
+      <div className="hero-ctas">
+        <a
+          className="hero-cta hero-cta-primary"
+          href={SITE_DATA.event.registerUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Register for the Derby
+        </a>
+        <a
+          className="hero-cta hero-cta-secondary"
+          href={SITE_DATA.event.honorSponsorUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Sponsor a Dog in Honor or Memory
+        </a>
+      </div>
     </header>
   );
 }

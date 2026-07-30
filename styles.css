@@ -138,6 +138,51 @@ a {
   opacity: 0.7;
 }
 
+.hero-ctas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.hero-cta {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 0.85rem 1.75rem;
+  border-radius: 999px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 2px solid transparent;
+}
+
+.hero-cta:hover {
+  transform: translateY(-2px);
+}
+
+.hero-cta-primary {
+  background: var(--yellow);
+  color: var(--navy);
+  box-shadow: 0 4px 14px rgba(244, 211, 94, 0.4);
+}
+
+.hero-cta-primary:hover {
+  box-shadow: 0 8px 20px rgba(244, 211, 94, 0.55);
+}
+
+.hero-cta-secondary {
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.hero-cta-secondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #fff;
+}
+
 main {
   max-width: 1100px;
   margin: 0 auto;
