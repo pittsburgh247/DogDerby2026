@@ -371,6 +371,8 @@ const SITE_DATA = {
       category: "Skincare",
       logo: "assets/vendor-happy-plant.jpg",
       description: "🌱 Plant-powered skincare. Vegan. Certified cruelty-free. Made in the 🇺🇸. 5% of every purchase supports animal rescue.",
+      website: "https://happyplantbotanicals.com",
+      instagram: "@happyplantbotanicals",
     },
     {
       name: "Club Pilates Murrysville",
@@ -394,6 +396,8 @@ const SITE_DATA = {
       category: "Photography",
       logo: "assets/vendor-kate-buckley.png",
       description: "Boutique family and pet photographer in Pittsburgh, PA, capturing the ordinary and extraordinary moments of your family and creating custom artwork for your home.",
+      website: "https://www.katebuckleyphotography.com",
+      instagram: "@katebuckleyphoto",
     },
     {
       name: "Integrity Psychological Services",
@@ -480,7 +484,13 @@ const SITE_DATA = {
     { name: "The Howdy Chic Boutique", category: "Boutique & Apparel" },
     { name: "Charm Revival PGH", category: "Jewelry & Accessories" },
     { name: "Smoke and Venom Apothecary", category: "Apothecary & Fragrance" },
-    { name: "Pawsitive Vibes PGH", category: "Event Planning" },
+    {
+      name: "Pawsitive Vibes PGH",
+      category: "Event Planning",
+      description: "🐾 Pet-themed \"pawty\" planning for Pittsburgh pups and their people.",
+      website: "https://www.facebook.com/p/Pawsitive-Vibes-PGH-100091448153907/",
+      instagram: "@pawsitivevibespgh",
+    },
     {
       name: "hi Hemp Infused Crafts",
       category: "Home & Bath Goods",
