@@ -179,14 +179,6 @@ const SITE_DATA = {
       instagram: "@millies",
     },
     {
-      name: "Binko's Pepper Sauce",
-      category: "Food & Drink",
-      logo: "assets/vendor-binkos.jpg",
-      description: "🌶️ Small-batch, family-run hot sauce maker based in Pittsburgh — bring the heat!",
-      website: "https://binkos.net",
-      instagram: "@binkospeppersauce",
-    },
-    {
       name: "Biondi Biscotti",
       category: "Food & Drink",
       logo: "assets/vendor-biondi-biscotti.webp",
