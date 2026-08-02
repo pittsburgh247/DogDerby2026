@@ -374,7 +374,12 @@ const SITE_DATA = {
       website: "https://biancabasilone.myrealtyonegroup.com",
       instagram: "@boughtwithbianca",
     },
-    { name: "Happy Plant Botanicals", category: "Skincare", logo: "assets/vendor-happy-plant.jpg" },
+    {
+      name: "Happy Plant Botanicals",
+      category: "Skincare",
+      logo: "assets/vendor-happy-plant.jpg",
+      description: "🌱 Plant-powered skincare. Vegan. Certified cruelty-free. Made in the 🇺🇸. 5% of every purchase supports animal rescue.",
+    },
     {
       name: "Club Pilates Murrysville",
       category: "Fitness",
