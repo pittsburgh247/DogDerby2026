@@ -428,6 +428,8 @@ const SITE_DATA = {
       name: "PetSuites - Cranberry Township",
       category: "Pet Boarding & Services",
       logo: "assets/vendor-petsuites.webp",
+      description: "🐕 Pet resort offering boarding, daycare, grooming, and training for dogs and cats.",
+      website: "https://cranberrytownship.petsuitesofamerica.com",
     },
     {
       name: "Warrior Canine Connection",
