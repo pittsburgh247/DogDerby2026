@@ -381,11 +381,13 @@ const SITE_DATA = {
       instagram: "@clubpilatesmurrysville",
     },
     {
-      name: "Inked and Linked",
+      name: "Inked N Linked",
       category: "Services",
       logo: "assets/vendor-inked-linked.webp",
       logoOnDark: true,
       description: "✨ Permanent jewelry and fine line tattoos.",
+      website: "https://inkednlinked.com",
+      instagram: "@inked.n.linked",
     },
     {
       name: "Kate Buckley Photography",
