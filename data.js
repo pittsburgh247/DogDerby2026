@@ -472,6 +472,7 @@ const SITE_DATA = {
       name: "Full Count Threads",
       category: "Apparel",
       description: "⚾ Sports/\"game day\" apparel brand — tees, tanks, sweatshirts, clear stadium bags, and hand-beaded purse straps.",
+      website: "https://www.etsy.com/shop/FullCountThreads",
       instagram: "@fullcountthreads",
     },
     { name: "The Howdy Chic Boutique", category: "Boutique & Apparel" },
