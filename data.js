@@ -474,7 +474,6 @@ const SITE_DATA = {
       website: "https://pittsburghpetfence.com",
       instagram: "@pittsburghpetfence",
     },
-    { name: "Fumo Cigar Bar", category: "Activity" },
     {
       name: "Puppy Paws Cafe",
       category: "Food & Drink",
@@ -499,7 +498,11 @@ const SITE_DATA = {
     },
     { name: "The Howdy Chic Boutique", category: "Boutique & Apparel", instagram: "@thehowdychicboutique" },
     { name: "Charm Revival PGH", category: "Jewelry & Accessories", instagram: "@charmrevivalpgh" },
-    { name: "Smoke and Venom Apothecary", category: "Apothecary & Fragrance" },
+    {
+      name: "Smoke and Venom Apothecary",
+      category: "Apothecary & Fragrance",
+      instagram: "@smokeandvenomapothecary",
+    },
     {
       name: "Pawsitive Vibes PGH",
       category: "Event Planning",
