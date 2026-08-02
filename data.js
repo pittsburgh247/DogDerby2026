@@ -366,6 +366,7 @@ const SITE_DATA = {
       category: "Pet Accessories",
       logo: "assets/vendor-buggys-bowties.png",
       description: "🐾 Pet accessory vendor with bowties, bandanas, and more!",
+      website: "https://www.facebook.com/profile.php?id=61563713596166",
     },
     {
       name: "Bianca Basilone – Realty One Group Landmark",
@@ -488,7 +489,7 @@ const SITE_DATA = {
       website: "https://pupoclock.com",
       instagram: "@pupoclock_",
     },
-    { name: "Poppy's Crafty Corner", category: "Pet Accessories" },
+    { name: "Poppy's Crafty Corner", category: "Pet Accessories", instagram: "@poppyscraftycorner" },
     {
       name: "Full Count Threads",
       category: "Apparel",
@@ -497,7 +498,7 @@ const SITE_DATA = {
       instagram: "@fullcountthreads",
     },
     { name: "The Howdy Chic Boutique", category: "Boutique & Apparel", instagram: "@thehowdychicboutique" },
-    { name: "Charm Revival PGH", category: "Jewelry & Accessories" },
+    { name: "Charm Revival PGH", category: "Jewelry & Accessories", instagram: "@charmrevivalpgh" },
     { name: "Smoke and Venom Apothecary", category: "Apothecary & Fragrance" },
     {
       name: "Pawsitive Vibes PGH",
