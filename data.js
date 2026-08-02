@@ -124,6 +124,7 @@ const SITE_DATA = {
       logo: "assets/vendor-groove-coffee.png",
       description: "☕ Mobile coffee company serving canned sealed lattes and espresso drinks from a vintage coffee truck.",
       website: "https://groovecoffeecompany.com",
+      instagram: "@groove.coffee.company",
     },
     {
       name: "Los Gallitos",
@@ -139,6 +140,7 @@ const SITE_DATA = {
       logo: "assets/vendor-joyful-rides.jpg",
       description: "🍪 Boutique bakery serving custom decorated sugar cookies and sweet treats, plus cookie decorating classes.",
       website: "https://joyfulridesco.com",
+      instagram: "@joyfulridesco",
     },
     {
       name: "The Lemon Lineup",
@@ -161,6 +163,7 @@ const SITE_DATA = {
       logo: "assets/vendor-pgh-eatz.webp",
       description: "🌭 Food truck dishing out homestyle entrees — Italian roast beef, meatballs, sausage & peppers, mac and cheese, pulled pork, tacos — with gluten-free and vegan options.",
       website: "https://pgheatz.com",
+      instagram: "@pgh_eatz",
     },
     {
       name: "Tipsy Gypsy Mobile Bar",
@@ -217,6 +220,7 @@ const SITE_DATA = {
       logo: "assets/vendor-yinz-yappers.jpg",
       description: "🐾 Pittsburgh-themed pet supply company — tug toys, bandanas, and gear — that gives back to local animal rescues.",
       website: "https://yinzandyappers.com",
+      instagram: "@yinzandyappers",
     },
     {
       name: "Bentley's Doggie Bistro",
@@ -286,6 +290,7 @@ const SITE_DATA = {
       logo: "assets/vendor-pet-palace.png",
       description: "🐾 Pittsburgh (South Side) pet boarding resort offering luxury boarding, daycare, grooming, and webcam-monitored suites.",
       website: "https://petpalaceresort.com",
+      instagram: "@petpalaceresorts",
     },
     {
       name: "Sugar Oats Collections",
@@ -299,6 +304,7 @@ const SITE_DATA = {
       logo: "assets/vendor-rebel-hound.jpg",
       description: "🐕 Specialty pet supply boutique in downtown Pittsburgh, plus \"The Green Room\" — a members-only dog-friendly lounge and coworking space.",
       website: "https://rebel-hound.com",
+      instagram: "@_rebelhound",
     },
     {
       name: "Silly Goose Jewelry",
@@ -421,6 +427,7 @@ const SITE_DATA = {
       logo: "assets/vendor-dogtopia.jpeg",
       description: "🐕 Dog daycare, overnight boarding, and spa/grooming services with webcam-monitored playrooms.",
       website: "https://www.dogtopia.com/pennsylvania-moon-township",
+      instagram: "@dogtopiaofmoontownship",
     },
     {
       name: "PetSuites - Cranberry Township",
@@ -428,6 +435,7 @@ const SITE_DATA = {
       logo: "assets/vendor-petsuites.webp",
       description: "🐕 Pet resort offering boarding, daycare, grooming, and training for dogs and cats.",
       website: "https://cranberrytownship.petsuitesofamerica.com",
+      instagram: "@petsuitescranberrytownship",
     },
     {
       name: "Warrior Canine Connection",
@@ -435,6 +443,7 @@ const SITE_DATA = {
       logo: "assets/vendor-warrior-canine.webp",
       description: "National nonprofit that trains service dogs for combat veterans through a therapeutic training model.",
       website: "https://warriorcanineconnection.org",
+      instagram: "@warriorcanineconnection",
     },
 
     {
@@ -451,6 +460,7 @@ const SITE_DATA = {
       logo: "assets/vendor-pgh-party-creations.png",
       description: "🎨 Children's event entertainment company offering face painting, glitter/airbrush tattoos, balloon art, and henna.",
       website: "https://pghpartycreations.com",
+      instagram: "@pghpartycreations",
     },
 
     {
@@ -458,6 +468,7 @@ const SITE_DATA = {
       category: "Pet Services",
       description: "Locally owned installer and repair service for underground/electric dog fences, including Invisible Fence brand repairs.",
       website: "https://pittsburghpetfence.com",
+      instagram: "@pittsburghpetfence",
     },
     { name: "Fumo Cigar Bar", category: "Activity" },
     {
