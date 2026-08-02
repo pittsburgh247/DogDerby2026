@@ -235,6 +235,7 @@ const SITE_DATA = {
       category: "Pet Accessories",
       logo: "assets/vendor-olivers-bow-ties.png",
       description: "🎀 Handmade pet accessories — bandanas, bows, and bowties — for the fanciest pups around.",
+      instagram: "@oliversbowties",
     },
     {
       name: "Griswold's Natural Pet Market",
@@ -297,6 +298,7 @@ const SITE_DATA = {
       category: "Body Care",
       logo: "assets/vendor-sugar-oats.jpg",
       description: "🧼 Goat milk artisan soaps, small-batch skincare, and luxury candles.",
+      instagram: "@sugaroatscollections",
     },
     {
       name: "Rebel Hound Pittsburgh / The Green Room",
@@ -342,6 +344,7 @@ const SITE_DATA = {
       logo: "assets/vendor-sewickley-hounds.png",
       description: "501(c)(3) nonprofit (est. 2024) supporting hound and dog welfare, affiliated with the Sewickley Hunt Club.",
       website: "https://sewickleyhoundsfoundation.org",
+      instagram: "@sewickleyhounds",
     },
     {
       name: "Invisible Fence of Pittsburgh",
@@ -483,6 +486,7 @@ const SITE_DATA = {
       category: "Pet Products",
       description: "📦 Monthly subscription box for kids and families with new puppies, including breed trading cards and a vet-tips book.",
       website: "https://pupoclock.com",
+      instagram: "@pupoclock_",
     },
     { name: "Poppy's Crafty Corner", category: "Pet Accessories" },
     {
@@ -492,7 +496,7 @@ const SITE_DATA = {
       website: "https://www.etsy.com/shop/FullCountThreads",
       instagram: "@fullcountthreads",
     },
-    { name: "The Howdy Chic Boutique", category: "Boutique & Apparel" },
+    { name: "The Howdy Chic Boutique", category: "Boutique & Apparel", instagram: "@thehowdychicboutique" },
     { name: "Charm Revival PGH", category: "Jewelry & Accessories" },
     { name: "Smoke and Venom Apothecary", category: "Apothecary & Fragrance" },
     {
