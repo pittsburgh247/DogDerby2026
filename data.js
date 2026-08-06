@@ -377,13 +377,6 @@ const SITE_DATA = {
       instagram: "@boughtwithbianca",
     },
     {
-      name: "Happy Plant Botanicals",
-      category: "Skincare",
-      logo: "assets/vendor-happy-plant.jpg",
-      description: "🌱 Plant-powered skincare. Vegan. Certified cruelty-free. Made in the 🇺🇸. 5% of every purchase supports animal rescue.",
-      website: "https://happyplantbotanicals.com",
-      instagram: "@happyplantbotanicals",
-    },
     {
       name: "Club Pilates Murrysville",
       category: "Fitness",
