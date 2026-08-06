@@ -475,12 +475,6 @@ const SITE_DATA = {
       instagram: "@puppy_paws_cafe",
     },
     {
-      name: "Pup O Clock",
-      category: "Pet Products",
-      description: "📦 Monthly subscription box for kids and families with new puppies, including breed trading cards and a vet-tips book.",
-      website: "https://pupoclock.com",
-      instagram: "@pupoclock_",
-    },
     { name: "Poppy's Crafty Corner", category: "Pet Accessories", instagram: "@poppyscraftycorner" },
     {
       name: "Full Count Threads",
