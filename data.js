@@ -377,7 +377,6 @@ const SITE_DATA = {
       instagram: "@boughtwithbianca",
     },
     {
-    {
       name: "Club Pilates Murrysville",
       category: "Fitness",
       logo: "assets/vendor-club-pilates.jpg",
@@ -474,7 +473,6 @@ const SITE_DATA = {
       website: "https://puppypawscafe.com",
       instagram: "@puppy_paws_cafe",
     },
-    {
     { name: "Poppy's Crafty Corner", category: "Pet Accessories", instagram: "@poppyscraftycorner" },
     {
       name: "Full Count Threads",
