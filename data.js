@@ -117,6 +117,13 @@ const SITE_DATA = {
       website: "https://www.tees-n-tops.com",
       accentColor: "#1b2a4a",
     },
+    {
+      name: "Topline Equine and Canine Sports Massage",
+      website: "https://www.toplinesm.com",
+      accentColor: "#3d7a6e",
+      hasTent: true,
+      offering: "Stop by for event-day specials on equine and canine sports massage packages.",
+    },
   ],
 
   vendors: [
@@ -477,13 +484,6 @@ const SITE_DATA = {
       instagram: "@duckdogzchews",
     },
     { name: "Abstract Avenue", category: "Face Painting" },
-    {
-      name: "Topline Equine and Canine Sports Massage",
-      category: "Pet Health & Wellness",
-      description: "🐾 Canine (and equine) sports massage therapy, with event-day package specials.",
-      website: "https://www.toplinesm.com",
-      instagram: "@toplinesm",
-    },
   ],
 
   raffleItems: [
