@@ -84,6 +84,8 @@ const SITE_DATA = {
       website: "https://mansosupranoagency.com",
       accentColor: "#d0a058",
       showNameCaption: true,
+      hasTent: true,
+      offering: "Stop by for a giveaway and games, plus info on their pet insurance offerings.",
     },
     {
       name: "Double Take Detailing",

@@ -59,25 +59,37 @@ function Hero() {
 }
 
 function SponsorCard({ sponsor }) {
-  let content;
+  let logo;
   if (sponsor.showNameCaption) {
-    content = (
+    logo = (
       <div className="sponsor-logo-wrap">
         <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />
         <span className="sponsor-caption">{sponsor.name}</span>
       </div>
     );
   } else if (sponsor.logo) {
-    content = <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />;
+    logo = <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />;
   } else {
-    content = <span className="sponsor-name">{sponsor.name}</span>;
+    logo = <span className="sponsor-name">{sponsor.name}</span>;
   }
+
+  const content = sponsor.hasTent ? (
+    <div className="sponsor-tent-content">
+      {logo}
+      <span className="tent-badge">📍 Visit our tent!</span>
+      {sponsor.offering && <p className="sponsor-offering">{sponsor.offering}</p>}
+    </div>
+  ) : (
+    logo
+  );
+
+  const cardClass = `sponsor-card${sponsor.hasTent ? " sponsor-card-tent" : ""}`;
   const style = { "--accent": sponsor.accentColor || "#1b2a4a" };
 
   if (sponsor.website) {
     return (
       <a
-        className="sponsor-card"
+        className={cardClass}
         style={style}
         href={sponsor.website}
         target="_blank"
@@ -90,7 +102,7 @@ function SponsorCard({ sponsor }) {
   }
 
   return (
-    <div className="sponsor-card" style={style}>
+    <div className={cardClass} style={style}>
       {content}
     </div>
   );
