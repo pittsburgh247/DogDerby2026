@@ -469,21 +469,28 @@ const SITE_DATA = {
     },
 
     { name: "Poppy's Crafty Corner", category: "Pet Accessories", instagram: "@poppyscraftycorner" },
-    { name: "Charm Revival PGH", category: "Jewelry & Accessories", instagram: "@charmrevivalpgh" },
+    {
+      name: "Charm Revival PGH",
+      category: "Jewelry & Accessories",
+      logo: "assets/vendor-charm-revival.jpg",
+      instagram: "@charmrevivalpgh",
+    },
     {
       name: "Laurel Mtn. S'mores",
       category: "Desserts",
+      logo: "assets/vendor-laurel-mtn-smores.jpg",
       description: "🔥 Small-batch gourmet s'mores kits — handcrafted honey graham crackers, marshmallows, and melting chocolate.",
       instagram: "@laurelmtnsmores",
     },
     {
       name: "Duck Dogz Chews and Bones",
       category: "Pet Supplies",
+      logo: "assets/vendor-duck-dogz.png",
       description: "🦴 Natural dog chews and bones — bully sticks, marrow bones, yak cheese chews, and curated chew subscription boxes.",
       website: "https://duckdogz.com",
       instagram: "@duckdogzchews",
     },
-    { name: "Abstract Avenue", category: "Face Painting" },
+    { name: "Abstract Avenue", category: "Face Painting", logo: "assets/vendor-abstract-avenue.png" },
   ],
 
   raffleItems: [
