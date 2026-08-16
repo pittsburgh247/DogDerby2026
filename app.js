@@ -254,9 +254,10 @@ function RescuePartners() {
         Proceeds from Dog Derby 2026 support these rescue organizations.
       </p>
       <div className="rescue-grid">
-        {SITE_DATA.rescuePartners.map((name) => (
-          <div className="rescue-card" key={name}>
-            {name}
+        {SITE_DATA.rescuePartners.map((r) => (
+          <div className="rescue-card" key={r.name}>
+            {r.logo && <img src={r.logo} alt={r.name} className="rescue-logo" />}
+            <span>{r.name}</span>
           </div>
         ))}
       </div>
