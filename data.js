@@ -562,17 +562,17 @@ const SITE_DATA = {
   ],
 
   rescuePartners: [
-    { name: "Great Pyrenees Club of Western PA Rescue" },
+    { name: "Great Pyrenees Club of Western PA Rescue", logo: "assets/rescue-great-pyrenees.png" },
     { name: "One by One Rescue", logo: "assets/rescue-one-by-one.png" },
     { name: "Orphans of the Storm", logo: "assets/rescue-orphans-of-the-storm.jpg" },
     { name: "Bark About It Rescue", logo: "assets/rescue-bark-about-it.png" },
-    { name: "Team Memphis" },
+    { name: "Team Memphis", logo: "assets/rescue-team-memphis.png" },
     { name: "Furry Friends of St. Francis", logo: "assets/rescue-furry-friends-st-francis.jpg" },
     { name: "Save a Friend PR", logo: "assets/rescue-save-a-friend-pr.jpg" },
     { name: "Furever Homes Doberman Rescue", logo: "assets/rescue-furever-homes-doberman.jpg" },
-    { name: "Monroeville Animal Shelter" },
+    { name: "Monroeville Animal Shelter", logo: "assets/rescue-monroeville-shelter.png" },
     { name: "Butler County Humane Society", logo: "assets/rescue-butler-county-humane.png" },
     { name: "Tiny Cause", logo: "assets/rescue-tiny-cause.jpg" },
-    { name: "Death Row Dogs Sanctuary" },
+    { name: "Death Row Dogs Sanctuary", logo: "assets/rescue-death-row-dogs.png" },
   ],
 };
