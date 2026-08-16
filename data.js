@@ -468,7 +468,12 @@ const SITE_DATA = {
       instagram: "@pghpartycreations",
     },
 
-    { name: "Poppy's Crafty Corner", category: "Pet Accessories", instagram: "@poppyscraftycorner" },
+    {
+      name: "Poppy's Crafty Corner",
+      category: "Pet Accessories",
+      logo: "assets/vendor-poppys-crafty-corner.jpg",
+      instagram: "@poppyscraftycorner",
+    },
     {
       name: "Charm Revival PGH",
       category: "Jewelry & Accessories",
