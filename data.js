@@ -472,12 +472,14 @@ const SITE_DATA = {
       name: "Poppy's Crafty Corner",
       category: "Pet Accessories",
       logo: "assets/vendor-poppys-crafty-corner.jpg",
+      description: "🐾 Handmade pet accessories crafted with care for your pup.",
       instagram: "@poppyscraftycorner",
     },
     {
       name: "Charm Revival PGH",
       category: "Jewelry & Accessories",
       logo: "assets/vendor-charm-revival.jpg",
+      description: "✨ Statement charm jewelry and pieces made to hold onto your core memories.",
       instagram: "@charmrevivalpgh",
     },
     {
@@ -495,7 +497,12 @@ const SITE_DATA = {
       website: "https://duckdogz.com",
       instagram: "@duckdogzchews",
     },
-    { name: "Abstract Avenue", category: "Face Painting", logo: "assets/vendor-abstract-avenue.png" },
+    {
+      name: "Abstract Avenue",
+      category: "Face Painting",
+      logo: "assets/vendor-abstract-avenue.png",
+      description: "🎨 Colorful face painting and creative fun for kids (and kids at heart).",
+    },
   ],
 
   raffleItems: [
