@@ -119,6 +119,7 @@ const SITE_DATA = {
     },
     {
       name: "Topline Equine and Canine Sports Massage",
+      logo: "assets/sponsor-topline.jpg",
       website: "https://www.toplinesm.com",
       accentColor: "#3d7a6e",
       hasTent: true,
