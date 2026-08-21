@@ -237,8 +237,24 @@ function Raffle() {
       <div className="raffle-grid">
         {SITE_DATA.raffleItems.map((r, i) => (
           <div className="raffle-card" key={`${r.donor}-${i}`}>
-            <div className="raffle-item">{r.item}</div>
-            <div className="raffle-donor">donated by {r.donor}</div>
+            {r.logo && (
+              <div className={`raffle-logo-wrap${r.logoOnDark ? " raffle-logo-dark" : ""}`}>
+                <img src={r.logo} alt={r.donor} className="raffle-logo" />
+              </div>
+            )}
+            <div className="raffle-card-text">
+              <div className="raffle-item">{r.item}</div>
+              <div className="raffle-donor">
+                donated by{" "}
+                {r.website ? (
+                  <a href={r.website} target="_blank" rel="noopener noreferrer">
+                    {r.donor}
+                  </a>
+                ) : (
+                  r.donor
+                )}
+              </div>
+            </div>
           </div>
         ))}
       </div>

@@ -485,7 +485,7 @@ a.sponsor-card:hover {
 
 .raffle-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 0.85rem;
 }
 
@@ -496,6 +496,34 @@ a.sponsor-card:hover {
   border-radius: 10px;
   padding: 0.85rem 1rem;
   box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.raffle-logo-wrap {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.raffle-logo-dark {
+  background: var(--navy);
+}
+
+.raffle-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.raffle-card-text {
+  min-width: 0;
 }
 
 .raffle-item {
@@ -507,6 +535,16 @@ a.sponsor-card:hover {
   font-size: 0.85rem;
   color: #5a5248;
   margin-top: 0.15rem;
+}
+
+.raffle-donor a {
+  color: var(--pink-dark);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.raffle-donor a:hover {
+  text-decoration: underline;
 }
 
 .rescue-grid {
