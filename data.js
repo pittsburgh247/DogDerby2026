@@ -216,29 +216,12 @@ const SITE_DATA = {
       instagram: "@steelcityhotdogs",
     },
     {
-      name: "Couture Cupcakes",
-      category: "Desserts",
-      logo: "assets/vendor-couture-cupcakes.png",
-      description: "🧁 Cookies, cake pops, cupcakes, and stickers — sweetly styled treats.",
-      website: "https://www.couturecupcakespgh.com",
-      instagram: "@Couture_cupcakesPGH",
-    },
-
-    {
       name: "Yinz and Yappers",
       category: "Pet Supplies",
       logo: "assets/vendor-yinz-yappers.jpg",
       description: "🐾 Pittsburgh-themed pet supply company — tug toys, bandanas, and gear — that gives back to local animal rescues.",
       website: "https://yinzandyappers.com",
       instagram: "@yinzandyappers",
-    },
-    {
-      name: "Bentley's Doggie Bistro",
-      category: "Pet Supplies",
-      logo: "assets/vendor-bentleys.png",
-      description: "🐶 Mobile dog treat bakery based in Oakmont, PA, baking up unique dog treats and hosting pup-focused events.",
-      website: "https://bentleysdoggiebistro.com",
-      instagram: "@bentleysdoggiebistro",
     },
     {
       name: "Oliver's Bow Ties",
