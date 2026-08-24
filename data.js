@@ -23,6 +23,8 @@ const SITE_DATA = {
       logo: "assets/sponsor-west-shore-home.png",
       website: "https://westshorehome.com",
       accentColor: "#0050a0",
+      hasTent: true,
+      offering: "Stop by for free branded pup swag, plus info on our bathroom, window, and flooring services.",
     },
     {
       name: "Aaron Accounting",
@@ -47,6 +49,8 @@ const SITE_DATA = {
       logo: "assets/sponsor-compass-investments.png",
       website: "https://compassinvestmentsllc.com",
       accentColor: "#183890",
+      hasTent: true,
+      offering: "Stop by to meet the team and learn more about our investment services.",
     },
     {
       name: "Greentree Auto Body",
@@ -71,6 +75,8 @@ const SITE_DATA = {
       logo: "assets/sponsor-camp-bow-wow.png",
       website: "https://www.campbowwow.com/pittsburgh-east/",
       accentColor: "#a01830",
+      hasTent: true,
+      offering: "Stop by to learn more about our dog daycare, boarding, and grooming services.",
     },
     {
       name: "Berkley Creek Pet Retreat",
