@@ -228,32 +228,40 @@ function Vendors() {
 }
 
 function Raffle() {
+  const seen = new Set();
+  const donors = SITE_DATA.raffleItems.filter((r) => {
+    if (seen.has(r.donor)) return false;
+    seen.add(r.donor);
+    return true;
+  });
+
   return (
     <section id="raffle" className="section">
       <h2>Raffle Items</h2>
       <p className="section-intro">
-        A huge thank-you to everyone who donated a raffle item this year!
+        A huge thank-you to everyone who donated to this year's raffle!
       </p>
       <div className="raffle-grid">
-        {SITE_DATA.raffleItems.map((r, i) => (
-          <div className="raffle-card" key={`${r.donor}-${i}`}>
+        {donors.map((r) => (
+          <div className="raffle-card" key={r.donor}>
             {r.logo && (
               <div className={`raffle-logo-wrap${r.logoOnDark ? " raffle-logo-dark" : ""}`}>
                 <img src={r.logo} alt={r.donor} className="raffle-logo" />
               </div>
             )}
             <div className="raffle-card-text">
-              <div className="raffle-item">{r.item}</div>
-              <div className="raffle-donor">
-                donated by{" "}
-                {r.website ? (
-                  <a href={r.website} target="_blank" rel="noopener noreferrer">
-                    {r.donor}
-                  </a>
-                ) : (
-                  r.donor
-                )}
-              </div>
+              {r.website ? (
+                <a
+                  className="raffle-donor-name"
+                  href={r.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {r.donor}
+                </a>
+              ) : (
+                <span className="raffle-donor-name">{r.donor}</span>
+              )}
             </div>
           </div>
         ))}

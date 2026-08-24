@@ -526,24 +526,14 @@ a.sponsor-card:hover {
   min-width: 0;
 }
 
-.raffle-item {
+.raffle-donor-name {
   font-weight: 700;
   color: var(--navy);
-}
-
-.raffle-donor {
-  font-size: 0.85rem;
-  color: #5a5248;
-  margin-top: 0.15rem;
-}
-
-.raffle-donor a {
-  color: var(--pink-dark);
   text-decoration: none;
-  font-weight: 600;
 }
 
-.raffle-donor a:hover {
+a.raffle-donor-name:hover {
+  color: var(--pink-dark);
   text-decoration: underline;
 }
 

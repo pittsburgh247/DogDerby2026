@@ -487,18 +487,11 @@ const SITE_DATA = {
       website: "https://duckdogz.com",
       instagram: "@duckdogzchews",
     },
-    {
-      name: "Abstract Avenue",
-      category: "Face Painting",
-      logo: "assets/vendor-abstract-avenue.png",
-      description: "🎨 Colorful face painting and creative fun for kids (and kids at heart).",
-    },
   ],
 
   raffleItems: [
     { donor: "Oakmont Candle Works", item: "Gift Basket", website: "https://www.oakmontcandleworks.com/", logo: "assets/raffle-oakmont-candle-works.png" },
     { donor: "Keystone Cultures", item: "Gift Card", website: "https://www.keystonecultures.com/", logo: "assets/raffle-keystone-cultures.png" },
-    { donor: "Toni Unleashed", item: "Basket of Yak Chews", website: "https://www.toniunleashed.com/", logo: "assets/raffle-toni-unleashed.png" },
     { donor: "Toni Unleashed", item: "Pup Lunch", website: "https://www.toniunleashed.com/", logo: "assets/raffle-toni-unleashed.png" },
     { donor: "Nylabone", item: "Chews and Treats", website: "https://www.nylabone.com/", logo: "assets/raffle-nylabone.png" },
     { donor: "Bark Box", item: "Gift Certificate", website: "https://bark.co/", logo: "assets/raffle-bark-box.png" },
@@ -516,7 +509,6 @@ const SITE_DATA = {
     { donor: "Fun Fore All", item: "Item TBD", website: "https://funforeall.com/", logo: "assets/raffle-fun-fore-all.png" },
     { donor: "Home Chef", item: "Gift Card", website: "https://www.homechef.com/", logo: "assets/raffle-home-chef.png" },
     { donor: "On Par Now", item: "Trackman Gift Certificate", website: "https://onparnow.com/", logo: "assets/raffle-on-par-now.png" },
-    { donor: "Benebone", item: "Retail Product", website: "https://www.benebone.com/", logo: "assets/raffle-benebone.png" },
     { donor: "Grandpa Joe's Candy Shop", item: "Gift Card", website: "https://grandpajoescandyshop.com/", logo: "assets/raffle-grandpa-joes-candy.png", logoOnDark: true },
     { donor: "Venture Outdoors", item: "Gift Certificate", website: "https://ventureoutdoors.org/", logo: "assets/raffle-venture-outdoors.png" },
     { donor: "Happy Valley Hounds", item: "Gift Certificate" },
