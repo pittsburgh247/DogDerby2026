@@ -497,7 +497,7 @@ const SITE_DATA = {
     { donor: "Bark Box", item: "Gift Certificate", website: "https://bark.co/", logo: "assets/raffle-bark-box.png" },
     { donor: "Studio Glow PGH", item: "Gift Certificate (1-Year Expiration)", website: "https://studioglowpgh.com/", logo: "assets/raffle-studio-glow.png" },
     { donor: "Pawfect Match Outfitters", item: "Gift Basket", website: "https://pawfectmatchoutfitters.com", logo: "assets/vendor-pawfect-match.jpg" },
-    { donor: "Common Ground Botanicals", item: "Gift Basket", website: "https://commongroundbotanicals.com/" },
+    { donor: "Common Ground Botanicals", item: "Gift Basket", website: "https://commongroundbotanicals.com/", logo: "assets/raffle-common-ground-botanicals.jpg" },
     { donor: "Dogs by Design", item: "Gift Basket", website: "https://dogsbydesignspa.com/", logo: "assets/raffle-dogs-by-design.png" },
     { donor: "Zone 28", item: "Gift Certificate", website: "https://www.zone28.com/", logo: "assets/raffle-zone-28.png" },
     { donor: "5Iron Golf", item: "Gift Certificate", website: "https://fiveirongolf.com/locations/pittsburgh-market-square", logo: "assets/raffle-5iron-golf.png", logoOnDark: true },
